@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  margin: 0px;
+  background-color: aliceblue;
+  height: 90px;
+}
+/* ====================
+    Header styling 
+   ==================== */
+header {
+  background-color: aquamarine;
+  padding: 5px;
+  justify-content: cenetr;
+  align-items: center;
+}
+header .first img {
+  width: 30px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+header .first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  margin-right: 500px;
+  margin-bottom: 30px;
+}
+header .navlinks {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+
+header .links,
+header .navbuttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  color: #d982aa;
+  height: fit-content;
+}
+header .navbuttons .join {
+  color: #2c333a;
+  font-weight: bold;
+  border: 1.5px solid #2c333a;
+  border-radius: 2px;
+}
+header .links a {
+  text-decoration: none;
+  color: #2c333a;
+}
+main .ctf {
+  justify-content: center;
+}
+main .ctf .crypto {
+  background-color: green;
+  width: 15rem;
+  border-radius: 10px;
+  color: #ffffff;
+  align-items: center;
+  margin-left: 30px;
+  padding-bottom: 1rem;
+}
+main .ctf .crypto h2 {
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+main .ctf .crypto p {
+  justify-content: center;
+  padding-left: 10px;
+}
+main .ctf .crypto a {
+  justify-content: center;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+main .ctf .steg {
+  background-color: green;
+  width: 15rem;
+  border-radius: 10px;
+  color: #ffffff;
+  align-items: center;
+  margin-left: 30px;
+  padding-bottom: 1rem;
+}
+main .ctf .steg h2 {
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+main .ctf .steg p {
+  justify-content: center;
+  padding-left: 10px;
+}
+main .ctf .steg a {
+  justify-content: center;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+main .ctf .osint {
+  background-color: green;
+  width: 15rem;
+  border-radius: 10px;
+  color: #ffffff;
+  align-items: center;
+  margin-left: 30px;
+  padding-bottom: 1rem;
+}
+main .ctf .osint h2 {
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+main .ctf .osint p {
+  justify-content: center;
+  padding-left: 10px;
+}
+main .ctf .osint a {
+  justify-content: center;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
